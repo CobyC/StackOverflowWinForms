@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveToDatabase", "SaveToDat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSeletionStayFocused", "TextSeletionStayFocused\TextSeletionStayFocused.csproj", "{FCB7C59C-CFD4-407A-AB6B-6752A93E8D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsImages", "WindowsImages\WindowsImages.csproj", "{745E30AA-523E-4C88-9EBD-4892428A3D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FCB7C59C-CFD4-407A-AB6B-6752A93E8D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB7C59C-CFD4-407A-AB6B-6752A93E8D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB7C59C-CFD4-407A-AB6B-6752A93E8D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745E30AA-523E-4C88-9EBD-4892428A3D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745E30AA-523E-4C88-9EBD-4892428A3D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745E30AA-523E-4C88-9EBD-4892428A3D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745E30AA-523E-4C88-9EBD-4892428A3D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
