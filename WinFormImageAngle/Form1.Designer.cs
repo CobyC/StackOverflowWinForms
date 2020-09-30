@@ -28,28 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBoxMtx = new System.Windows.Forms.PictureBox();
             this.pictureBoxCalc = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblMtxDeg = new System.Windows.Forms.Label();
             this.lblCalcDeg = new System.Windows.Forms.Label();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.button1 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMtx)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCalc)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxMtx
             // 
             this.pictureBoxMtx.Location = new System.Drawing.Point(52, 42);
-            this.pictureBoxMtx.Name = "pictureBox1";
+            this.pictureBoxMtx.Name = "pictureBoxMtx";
             this.pictureBoxMtx.Size = new System.Drawing.Size(96, 96);
             this.pictureBoxMtx.TabIndex = 0;
             this.pictureBoxMtx.TabStop = false;
             // 
-            // pictureBox2
+            // pictureBoxCalc
             // 
             this.pictureBoxCalc.Location = new System.Drawing.Point(212, 141);
-            this.pictureBoxCalc.Name = "pictureBox2";
+            this.pictureBoxCalc.Name = "pictureBoxCalc";
             this.pictureBoxCalc.Size = new System.Drawing.Size(96, 96);
             this.pictureBoxCalc.TabIndex = 1;
             this.pictureBoxCalc.TabStop = false;
@@ -90,11 +95,28 @@
             this.lblCalcDeg.TabIndex = 5;
             this.lblCalcDeg.Text = "deg";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(30, 240);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "sweater-background.jpg");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 274);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblCalcDeg);
             this.Controls.Add(this.lblMtxDeg);
             this.Controls.Add(this.label2);
@@ -119,6 +141,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblMtxDeg;
         private System.Windows.Forms.Label lblCalcDeg;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
